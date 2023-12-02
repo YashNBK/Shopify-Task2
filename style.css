@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+}
